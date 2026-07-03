@@ -6,7 +6,6 @@ An end-to-end EDA on the **SCMS Delivery History Dataset**, which tracks 10,324 
 
 - **Type:** Exploratory Data Analysis (EDA)
 - **Contribution:** Individual
-- **Dataset:** [SCMS Delivery History Dataset](https://www.kaggle.com/datasets/divyeshardeshana/supply-chain-shipment-pricing-data) — 10,324 rows × 33 columns
 
 Every day a shipment is delayed is a day a clinic somewhere is short on test kits or medication — but every dollar spent on premium freight is a dollar not spent on more product. This project digs into what actually drives **delivery delay** and **freight/insurance cost** in this network, so decisions can be made on data rather than anecdote.
 
@@ -61,15 +60,3 @@ Freight cost itself is heavily right-skewed, with **Air Charter** commanding a l
 - Build a predictive (classification) model for on-time delivery using shipment mode, country, INCO term, and lead time as features.
 - Enrich the dataset with external signals (fuel prices, port congestion, political stability) to explain currently-unexplained delay variance.
 
-## ▶️ How to Run
-
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
-pip install pandas numpy matplotlib seaborn plotly jupyter
-jupyter notebook FedEx_EDA_Final.ipynb
-```
-
-## 📄 License
-
-This project is for educational purposes as part of an EDA submission.
