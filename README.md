@@ -5,7 +5,6 @@ An end-to-end EDA on the **SCMS Delivery History Dataset**, which tracks 10,324 
 ## 📌 Project Overview
 
 - **Type:** Exploratory Data Analysis (EDA)
-- **Contribution:** Individual
 
 Every day a shipment is delayed is a day a clinic somewhere is short on test kits or medication — but every dollar spent on premium freight is a dollar not spent on more product. This project digs into what actually drives **delivery delay** and **freight/insurance cost** in this network, so decisions can be made on data rather than anecdote.
 
